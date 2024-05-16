@@ -1,0 +1,51 @@
+{
+  "scriptMappings": [
+    {
+      "outputFolder": "frontend/web/dist/",
+      "input": [
+        "node_modules/select2/dist/js/i18n/*.js"
+      ]
+    }
+  ],
+  "scripts": [
+
+    {
+      "output": "js/vendor.min.js",
+      "input": [
+        "frontend/web/theme/js/api.jquery.js",
+        "frontend/web/theme/js/jquery.mThumbnailScroller.js",
+        "frontend/web/OwlCarousel2/dist/owl.carousel.min.js",
+        "node_modules/select2/dist/js/select2.min.js"
+
+      ]
+    },
+    {
+      "output": "js/vendor2.min.js",
+      "input": [
+        "frontend/web/theme/js/bootstrap.min.js",
+        "node_modules/sweetalert2/dist/sweetalert2.all.min.js",
+        "frontend/web/theme/js/jquery.elevatezoom.js",
+        "frontend/web/theme/js/bootstrap-tabdrop.js",
+        "frontend/web/theme/js/mainscript.js",
+        "frontend/web/theme/js/pagination.js"
+      ]
+    }
+  ],
+  "styles": [
+    {
+      "output": "css/vendor.min.css",
+      "input": [
+        "frontend/web/theme/css/page.css",
+        "frontend/web/theme/css/product.css",
+        "frontend/web/theme/css/media.css",
+        "frontend/web/theme/css/translateelement.css",
+        "frontend/web/fancybox-master/dist/jquery.fancybox.css",
+        "frontend/web/theme/css/jquery.mThumbnailScroller.css",
+        "frontend/web/theme/css/jquery.mmenu.css",
+        "frontend/web/theme/css/jquery.mThumbnailScroller.css",
+        "node_modules/select2/dist/css/select2.min.css",
+        "node_modules/sweetalert2/dist/sweetalert2.min.css"
+      ]
+    }
+  ]
+}

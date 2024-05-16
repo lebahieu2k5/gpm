@@ -1,0 +1,10 @@
+back
+<div class="viewallcat">
+    <?php $indexing = 0;
+            foreach ($products as $value): ?>
+    <a href="<?= Yii::$app->urlManager->createUrl(['product/detailproduct', 'path' => $value->url, 'id' => $value->id]) ?>"><?= $value->name ?></a>
+    <?php if ($indexing == 5) {
+                    break;
+                }
+                $indexing++; endforeach; ?>
+</div>

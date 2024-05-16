@@ -1,0 +1,131 @@
+
+.footer-title{
+    margin-top: 96px;
+}
+
+#home-services #owl-home-services-sliders .grid:hover .owl-next,
+#home-services #owl-home-services-sliders .grid:hover .owl-prev {
+    opacity: 0.5;
+}
+
+#home-services #owl-home-services-sliders .grid:hover .owl-next:hover,
+#home-services #owl-home-services-sliders .grid:hover .owl-prev:hover {
+    opacity: 1;
+}
+
+#home-services #owl-home-services-sliders .grid .owl-controls .owl-page span {
+    opacity: 1;
+    background-color: #ffffff;
+}
+
+#home-services #owl-home-services-sliders .grid .owl-controls .owl-page.active span,
+#home-services #owl-home-services-sliders .grid .owl-theme .owl-controls.clickable .owl-page:hover span {
+    opacity: 1;
+    background-color: #576398;
+}
+
+
+#home-services #owl-home-services-sliders .grid .owl-prev {
+    position: absolute;
+    top: calc(50% - 150px);
+    left: 15px;
+    width: 40px;
+    height: 40px;
+    background: #ffffff;
+    border-radius: 0;
+    color: #576398;
+    font-size: 24px;
+    padding: 0;
+    opacity: 0;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    margin: 0;
+}
+
+#home-services #owl-home-services-sliders .grid .owl-next {
+    position: absolute;
+    top: calc(50% - 150px);
+    right: 20px;
+    width: 40px;
+    height: 40px;
+    background: #ffffff;
+    border-radius: 0;
+    color: #576398;
+    font-size: 24px;
+    padding: 0;
+    opacity: 0;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    margin: 0;
+}
+
+#home-services #owl-home-services-sliders .grid .owl-next:hover,
+#home-services #owl-home-services-sliders .grid .owl-prev:hover {
+    opacity: 1;
+}
+/*---*/
+#home-featured-products #owl-product-slider:hover .owl-next,
+#home-featured-products #owl-product-slider:hover .owl-prev {
+    opacity: 0.5;
+}
+
+#home-featured-products #owl-product-slider:hover .owl-next:hover,
+#home-featured-products #owl-product-slider:hover .owl-prev:hover {
+    opacity: 1;
+}
+
+#home-featured-products #owl-product-slider .owl-controls .owl-page span {
+    opacity: 1;
+    background-color: #ffffff;
+}
+
+#home-featured-products #owl-product-slider .owl-controls .owl-page.active span,
+#home-featured-products #owl-product-slider .owl-theme .owl-controls.clickable .owl-page:hover span {
+    opacity: 1;
+    background-color: #576398;
+}
+
+
+#home-featured-products #owl-product-slider .owl-prev {
+    position: absolute;
+    top: calc(50% - 40px);
+    left: 15px;
+    width: 40px;
+    height: 40px;
+    background: #aaa;
+    border-radius: 0;
+    color: #576398;
+    font-size: 24px;
+    padding: 0;
+    opacity: 0;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    margin: 0;
+}
+
+#home-featured-products #owl-product-slider .owl-next {
+    position: absolute;
+    top: calc(50% - 40px);
+    right: 20px;
+    width: 40px;
+    height: 40px;
+    background: #aaa;
+    border-radius: 0;
+    color: #576398;
+    font-size: 24px;
+    padding: 0;
+    opacity: 0;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    margin: 0;
+}
+
+#home-featured-products #owl-product-slider .owl-next:hover,
+#home-featured-products #owl-product-slider .owl-prev:hover {
+    opacity: 1;
+}
+

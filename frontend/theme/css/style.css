@@ -1,0 +1,10 @@
+@font-face {
+    font-family: Roboto; /* Define the custom font name */
+    src: url(fonts/Roboto-Regular.ttf) format('truetype');
+    font-display: swap; /* Define how the browser behaves during download */
+}
+
+@font-face {
+    font-family: QuickSand;
+    src: url(fonts/DejaVuSans.ttf) format('truetype')
+}
